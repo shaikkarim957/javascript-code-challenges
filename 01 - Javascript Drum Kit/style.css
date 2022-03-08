@@ -1,8 +1,8 @@
-/* html {
+html {
     font-size: 10px;
     background: url("./background.jpg") bottom center;
     background-size: cover;
-} */
+}
 
 html,
 body {
@@ -16,6 +16,7 @@ body {
     flex: 1;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .key {
@@ -34,4 +35,11 @@ body {
 keyBlock {
     display: block;
     font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #ffc600;
 }
